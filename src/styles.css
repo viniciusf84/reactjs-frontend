@@ -6,16 +6,20 @@
 
 body {
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
-  width: 100%;
-  margin: 20px;
+  margin: 16px;
 }
 
 div li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 16px 0;
+  border-bottom: 1px solid #ccc;
 }
 
 div li + li {
@@ -31,9 +35,26 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px #aaa;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+}
+
+section {
+  padding: 16px 0;
+}
+
+fieldset {
+  display: flex;
+  border: none;
+  margin: 8px 0;
+}
+
+input {
+  margin: 4px 0;
+  padding: 4px;
 }
